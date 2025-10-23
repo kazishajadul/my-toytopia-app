@@ -10,7 +10,7 @@ const ToyDetails = () => {
   return (
     <div className="max-w-3xl mx-auto my-10 card bg-base-100 shadow-xl">
       <figure>
-        <img src={toy.pictureURL} alt={toy.toyName} className="h-80 object-cover w-full" />
+        <img src={toy.pictureURL} alt={toy.toyName} className="h-full object-cover w-full" />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-2xl">{toy.toyName}</h2>
