@@ -20,7 +20,6 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3 text-gray-800">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="/" className="hover:text-pink-500">Home</a></li>
-            <li><a href="/all-toys" className="hover:text-pink-500">All Toys</a></li>
             <li><a href="/blogs" className="hover:text-pink-500">Blogs</a></li>
             <li><a href="/about" className="hover:text-pink-500">About Us</a></li>
           </ul>
@@ -51,7 +50,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="border-t border-gray-200 text-center py-4 text-sm text-gray-500 bg-white/30 backdrop-blur-md">
         <p>© {new Date().getFullYear()} ToyTopia. All rights reserved.</p>
-        <p className="mt-1">Made with 💖 by Program Hero B12</p>
+        <p className="mt-1">Made with 💖 by Programming Hero B12</p>
       </div>
     </footer>
   );
