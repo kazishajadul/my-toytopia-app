@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const ToyCard = ({ toy }) => {
   return (
     <div className="card bg-gradient-to-br from-[#fdf3f0] via-[#faf0fa] to-[#f5f7fa] shadow-md hover:shadow-xl transition duration-300 rounded-2xl overflow-hidden">
-    
+
       <figure className="bg-white">
         <img
           src={toy.pictureURL}
           alt={toy.toyName}
-          className="w-full h-60 object-cover object-center transition-transform duration-300 hover:scale-105"
+          className="w-full h-48 object-contain rounded-lg"
         />
       </figure>
 
@@ -28,6 +28,13 @@ const ToyCard = ({ toy }) => {
               View Details
             </button>
           </Link>
+          
+          {/* <Link
+            to={`/toys/${toy.toyId}`}
+            className="btn bg-pink-500 hover:bg-pink-600 text-white mt-3 w-full"
+          >
+            View Details
+          </Link> */}
         </div>
       </div>
     </div>
