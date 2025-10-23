@@ -118,5 +118,30 @@
     "description": "A 48-piece extra-large floor puzzle featuring a colorful farm scene. The large pieces are perfect for toddlers and preschoolers.",
     "pictureURL": "https://i.ibb.co.com/Kp0qBYWH/Gaint-Puzzle.png",
     "subCategory": "Puzzles"
-  }
+  },
+  {
+  "toyId": 11,
+  "toyName": "Color Splash Art Kit",
+  "sellerName": "Creative Kids Corner",
+  "sellerEmail": "support@creativekids.com",
+  "price": 27.99,
+  "rating": 4.9,
+  "availableQuantity": 48,
+  "description": "A complete art set with watercolor paints, brushes, and stencils — perfect for young artists to express their imagination with vibrant colors.",
+  "pictureURL": "https://i.ibb.co.com/Z1Nw7Gv0/Color-Splash.png",
+  "subCategory": "Arts & Crafts"
+},
+{
+  "toyId": 12,
+  "toyName": "Space Explorer Rocket Set",
+  "sellerName": "Galaxy Playzone",
+  "sellerEmail": "sales@galaxyplayzone.com",
+  "price": 59.99,
+  "rating": 4.7,
+  "availableQuantity": 35,
+  "description": "A detailed rocket playset featuring astronauts, a launch pad, and a shuttle. Encourages curiosity about science and space exploration.",
+  "pictureURL": "https://i.ibb.co.com/p6Mm74ZP/Space-Rocket.png",
+  "subCategory": "STEM & Space"
+}
+
 ]
