@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-[#fdf3f0] via-[#faf0fa] to-[#f5f7fa] text-gray-700 mt-12 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         
-        {/* 🧸 Brand Info */}
+        {/* Brand Info */}
         <div>
           <h2 className="text-2xl font-bold text-pink-600 mb-3">ToyTopia</h2>
           <p className="text-sm leading-relaxed">
@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* ⚡ Quick Links */}
+        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-gray-800">Quick Links</h3>
           <ul className="space-y-2 text-sm">
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* 📞 Contact */}
+        {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-gray-800">Contact Us</h3>
           <ul className="text-sm space-y-2">
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* 🌐 Social Links */}
+        {/* Social Links */}
         <div>
           <h3 className="text-lg font-semibold mb-3 text-gray-800">Follow Us</h3>
           <div className="flex space-x-4 text-2xl">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* 💖 Bottom Section */}
+      {/* Bottom Section */}
       <div className="border-t border-gray-200 text-center py-4 text-sm text-gray-500 bg-white/30 backdrop-blur-md">
         <p>© {new Date().getFullYear()} ToyTopia. All rights reserved.</p>
         <p className="mt-1">Made with 💖 by Program Hero B12</p>

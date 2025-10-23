@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ToyCard = ({ toy }) => {
   return (
     <div className="card bg-gradient-to-br from-[#fdf3f0] via-[#faf0fa] to-[#f5f7fa] shadow-md hover:shadow-xl transition duration-300 rounded-2xl overflow-hidden">
-      {/* ✅ Image Section with fixed height */}
+    
       <figure className="bg-white">
         <img
           src={toy.pictureURL}
@@ -12,7 +12,7 @@ const ToyCard = ({ toy }) => {
         />
       </figure>
 
-      {/* ✅ Card Body */}
+      {/* Card Body */}
       <div className="card-body p-5">
         <h2 className="card-title text-lg font-bold text-gray-800">{toy.toyName}</h2>
         <p className="text-sm text-gray-500">{toy.subCategory}</p>

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaPuzzlePiece } from "react-icons/fa"; // ✅ fixed icon
+import { FaPuzzlePiece } from "react-icons/fa"; 
 
 const Navbar = () => {
   const navItems = [

@@ -18,14 +18,14 @@ const Header = () => {
         {toys.map((toy) => (
           <SwiperSlide key={toy.toyId}>
             <div className="relative">
-              {/* ✅ Image Section */}
+              {/* Image Section */}
               <img
                 src={toy.pictureURL}
                 alt={toy.toyName}
                 className="w-full h-[450px] object-cover object-center"
               />
 
-              {/* ✅ Soft Gradient Overlay */}
+              {/* Soft Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#fdf3f0]/90 via-[#f6e7fa]/50 to-transparent flex flex-col items-center justify-center text-center px-6">
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-800 drop-shadow-sm mb-2">
                   {toy.toyName}
@@ -43,3 +43,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
